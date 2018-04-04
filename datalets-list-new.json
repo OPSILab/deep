@@ -1,0 +1,759 @@
+[{
+	"name": "datatable-datalet",
+	"type": "table",
+	"idm": {
+		"inputs": {
+			"input": {
+				"name": "Column",
+				"description": "ColumnDescription",
+				"type": "TEXT",
+				"selection": "*"
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/datatable-datalet\/"
+}, {
+	"name": "barchart-datalet",
+	"type": "basic",
+	"idm": {
+		"inputs": {
+			"input": [{
+				"name": "XAxis",
+				"description": "XAxisDescription",
+				"type": "TEXT",
+				"selection": "1"
+			}, {
+				"name": "NumericYAxis",
+				"description": "YAxisDescription",
+				"type": "NUMBER",
+				"selection": "*"
+			}, {
+				"name": "Categories",
+				"description": "CategoriesDescription",
+				"type": "TEXT",
+				"selection": "?"
+			}],
+			"layouts": {
+				"input": [{
+					"name": "x-axis-label",
+					"description": "XAxisLabelDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "y-axis-label",
+					"description": "YAxisLabelDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "suffix",
+					"description": "suffixDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "legend",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["topRight", "bottom", "false"]
+					}
+				}, {
+					"name": "data-labels",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["true", "false"]
+					}
+				}, {
+					"name": "stack",
+					"description": "stackDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["false", "normal", "percent"]
+					}
+				}, {
+					"name": "theme",
+					"description": "themeDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["themeBase", "themeDarkGreen", "themeDarkBlue", "themeDarkUnica", "themeGray", "themeGrid", "themeGridLight", "themeSandSignika", "themeSkies"]
+					}
+				}]
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/barchart-datalet\/"
+}, {
+	"name": "columnchart-datalet",
+	"type": "basic",
+	"idm": {
+		"inputs": {
+			"input": [{
+				"name": "XAxis",
+				"description": "XAxisDescription",
+				"type": "TEXT",
+				"selection": "1"
+			}, {
+				"name": "NumericYAxis",
+				"description": "YAxisDescription",
+				"type": "NUMBER",
+				"selection": "*"
+			}, {
+				"name": "Categories",
+				"description": "CategoriesDescription",
+				"type": "TEXT",
+				"selection": "?"
+			}],
+			"layouts": {
+				"input": [{
+					"name": "x-axis-label",
+					"description": "XAxisLabelDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "y-axis-label",
+					"description": "YAxisLabelDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "suffix",
+					"description": "suffixDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "legend",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["topRight", "bottom", "false"]
+					}
+				}, {
+					"name": "data-labels",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["true", "false"]
+					}
+				}, {
+					"name": "stack",
+					"description": "stackDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["false", "normal", "percent"]
+					}
+				}, {
+					"name": "theme",
+					"description": "themeDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["themeBase", "themeDarkGreen", "themeDarkBlue", "themeDarkUnica", "themeGray", "themeGrid", "themeGridLight", "themeSandSignika", "themeSkies"]
+					}
+				}]
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/columnchart-datalet\/"
+}, {
+	"name": "linechart-datalet",
+	"type": "basic",
+	"idm": {
+		"inputs": {
+			"input": [{
+				"name": "XAxis",
+				"description": "XAxisDescription",
+				"type": "TEXT",
+				"selection": "1"
+			}, {
+				"name": "NumericYAxis",
+				"description": "YAxisDescription",
+				"type": "NUMBER",
+				"selection": "*"
+			}, {
+				"name": "Categories",
+				"description": "CategoriesDescription",
+				"type": "TEXT",
+				"selection": "?"
+			}],
+			"layouts": {
+				"input": [{
+					"name": "x-axis-label",
+					"description": "XAxisLabelDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "y-axis-label",
+					"description": "YAxisLabelDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "suffix",
+					"description": "suffixDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "legend",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["topRight", "bottom", "false"]
+					}
+				}, {
+					"name": "data-labels",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["true", "false"]
+					}
+				}, {
+					"name": "stack",
+					"description": "stackDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["false", "normal", "percent"]
+					}
+				}, {
+					"name": "theme",
+					"description": "themeDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["themeBase", "themeDarkGreen", "themeDarkBlue", "themeDarkUnica", "themeGray", "themeGrid", "themeGridLight", "themeSandSignika", "themeSkies"]
+					}
+				}]
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/linechart-datalet\/"
+}, {
+	"name": "areachart-datalet",
+	"type": "basic",
+	"idm": {
+		"inputs": {
+			"input": [{
+				"name": "XAxis",
+				"description": "XAxisDescription",
+				"type": "TEXT",
+				"selection": "1"
+			}, {
+				"name": "NumericYAxis",
+				"description": "YAxisDescription",
+				"type": "NUMBER",
+				"selection": "*"
+			}, {
+				"name": "Categories",
+				"description": "CategoriesDescription",
+				"type": "TEXT",
+				"selection": "?"
+			}],
+			"layouts": {
+				"input": [{
+					"name": "x-axis-label",
+					"description": "XAxisLabelDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "y-axis-label",
+					"description": "YAxisLabelDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "suffix",
+					"description": "suffixDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "legend",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["topRight", "bottom", "false"]
+					}
+				}, {
+					"name": "data-labels",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["true", "false"]
+					}
+				}, {
+					"name": "stack",
+					"description": "stackDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["false", "normal", "percent"]
+					}
+				}, {
+					"name": "theme",
+					"description": "themeDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["themeBase", "themeDarkGreen", "themeDarkBlue", "themeDarkUnica", "themeGray", "themeGrid", "themeGridLight", "themeSandSignika", "themeSkies"]
+					}
+				}]
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/areachart-datalet\/"
+}, {
+	"name": "heatmap-datalet",
+	"type": "basic",
+	"idm": {
+		"inputs": {
+			"input": [{
+				"name": "XAxis",
+				"description": "XAxisDescription",
+				"type": "TEXT",
+				"selection": "1"
+			}, {
+				"name": "NumericYAxis",
+				"description": "YAxisDescription",
+				"type": "NUMBER",
+				"selection": "*"
+			}, {
+				"name": "Categories",
+				"description": "CategoriesDescription",
+				"type": "TEXT",
+				"selection": "?"
+			}],
+			"layouts": {
+				"input": [{
+					"name": "x-axis-label",
+					"description": "XAxisLabelDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "y-axis-label",
+					"description": "YAxisLabelDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "suffix",
+					"description": "suffixDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "legend",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["bottom", "topRight", "false"]
+					}
+				}, {
+					"name": "data-labels",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["true", "false"]
+					}
+				}, {
+					"name": "stack",
+					"description": "stackDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["false", "normal", "percent"]
+					}
+				}],
+				"comment": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/heatmap-datalet\/"
+}, {
+	"name": "piechart-datalet",
+	"type": "pie",
+	"idm": {
+		"inputs": {
+			"input": [{
+				"name": "SliceLabels",
+				"description": "SliceLabelsDescription",
+				"type": "TEXT",
+				"selection": "1"
+			}, {
+				"name": "SliceSizes",
+				"description": "SliceSizesDescription",
+				"type": "NUMBER",
+				"selection": "1"
+			}],
+			"layouts": {
+				"input": [{
+					"name": "suffix",
+					"description": "suffixDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "legend",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["topRight", "bottom", "false"]
+					}
+				}, {
+					"name": "data-labels",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["true", "false"]
+					}
+				}, {
+					"name": "donut",
+					"description": "donutDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["false", "true"]
+					}
+				}, {
+					"name": "theme",
+					"description": "themeDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["themeBase", "themeDarkGreen", "themeDarkBlue", "themeDarkUnica", "themeGray", "themeGrid", "themeGridLight", "themeSandSignika", "themeSkies"]
+					}
+				}]
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/piechart-datalet\/"
+}, {
+	"name": "scatterchart-datalet",
+	"type": "scatter",
+	"idm": {
+		"inputs": {
+			"input": [{
+				"name": "NumericXAxis",
+				"description": "XAxisDescription",
+				"type": "NUMBER",
+				"selection": "1"
+			}, {
+				"name": "NumericYAxis",
+				"description": "YAxisDescription",
+				"type": "NUMBER",
+				"selection": "1"
+			}, {
+				"name": "Categories",
+				"description": "CategoriesDescription",
+				"type": "TEXT",
+				"selection": "?"
+			}],
+			"layouts": {
+				"input": [{
+					"name": "x-axis-label",
+					"description": "XAxisLabelDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "y-axis-label",
+					"description": "YAxisLabelDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "legend",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["topRight", "bottom", "false"]
+					}
+				}, {
+					"name": "data-labels",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["true", "false"]
+					}
+				}, {
+					"name": "theme",
+					"description": "themeDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["themeBase", "themeDarkGreen", "themeDarkBlue", "themeDarkUnica", "themeGray", "themeGrid", "themeGridLight", "themeSandSignika", "themeSkies"]
+					}
+				}]
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/scatterchart-datalet\/"
+}, {
+	"name": "bubblechart-datalet",
+	"type": "bubble",
+	"idm": {
+		"inputs": {
+			"input": [{
+				"name": "NumericXAxis",
+				"description": "XAxisDescription",
+				"type": "NUMBER",
+				"selection": "1"
+			}, {
+				"name": "NumericYAxis",
+				"description": "YAxisDescription",
+				"type": "NUMBER",
+				"selection": "1"
+			}, {
+				"name": "BubbleSize",
+				"description": "BubbleSizeDescription",
+				"type": "NUMBER",
+				"selection": "1"
+			}, {
+				"name": "BubbleContent",
+				"description": "BubbleContentDescription",
+				"type": "TEXT",
+				"selection": "1"
+			}, {
+				"name": "Categories",
+				"description": "CategoriesDescription",
+				"type": "TEXT",
+				"selection": "?"
+			}],
+			"layouts": {
+				"input": [{
+					"name": "x-axis-label",
+					"description": "XAxisLabelDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "y-axis-label",
+					"description": "YAxisLabelDescription",
+					"type": "TEXT",
+					"selection": "1"
+				}, {
+					"name": "legend",
+					"description": "dataLabelsDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["topRight", "bottom", "false"]
+					}
+				}, {
+					"name": "theme",
+					"description": "themeDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["themeBase", "themeDarkGreen", "themeDarkBlue", "themeDarkUnica", "themeGray", "themeGrid", "themeGridLight", "themeSandSignika", "themeSkies"]
+					}
+				}]
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/bubblechart-datalet\/"
+}, {
+	"name": "treemap-datalet",
+	"type": "treemap",
+	"idm": {
+		"inputs": {
+			"input": {
+				"name": "Level",
+				"description": "LevelDescription",
+				"type": "TEXT",
+				"selection": "*"
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/treemap-datalet\/"
+}, {
+	"name": "timeline-datalet",
+	"type": "timeline",
+	"idm": {
+		"inputs": {
+			"input": [{
+				"name": "StartDate",
+				"description": "StartDateDescription",
+				"type": "TEXT",
+				"selection": "1"
+			}, {
+				"name": "EndDate",
+				"description": "EndDateDescription",
+				"type": "TEXT",
+				"selection": "1"
+			}, {
+				"name": "EventTitle",
+				"description": "EventTitleDescription",
+				"type": "TEXT",
+				"selection": "1"
+			}, {
+				"name": "EventDescription",
+				"description": "EventDescriptionDescription",
+				"type": "TEXT",
+				"selection": "?"
+			}, {
+				"name": "MediaUrl",
+				"description": "MediaUrlDescription",
+				"type": "TEXT",
+				"selection": "?"
+			}, {
+				"name": "Background",
+				"description": "BackgroundDescription",
+				"type": "TEXT",
+				"selection": "?"
+			}],
+			"layouts": {
+				"input": {
+					"name": "date-format",
+					"description": "dateFormatDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["MDY", "DMY"]
+					}
+				}
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/timeline-datalet\/"
+}, {
+	"name": "mediaslider-datalet",
+	"type": "mediaslider",
+	"idm": {
+		"inputs": {
+			"input": [{
+				"name": "MediaUrl",
+				"description": "MediaUrlDescription",
+				"type": "TEXT",
+				"selection": "1"
+			}, {
+				"name": "MediaTitle",
+				"description": "MediaTitleDescription",
+				"type": "TEXT",
+				"selection": "?"
+			}, {
+				"name": "MediaDescription",
+				"description": "MediaUrlDescriptionDescription",
+				"type": "TEXT",
+				"selection": "?"
+			}],
+			"layouts": {
+				"input": {
+					"name": "animation",
+					"description": "animationDescription",
+					"type": "LIST",
+					"selection": "1",
+					"list": {
+						"item": ["random", "simpleFade", "curtainTopLeft", "curtainTopRight", "curtainBottomLeft", "curtainBottomRight", "curtainSliceLeft", "curtainSliceRight", "blindCurtainTopLeft", "blindCurtainTopRight", "blindCurtainBottomLeft", "blindCurtainBottomRight", "blindCurtainSliceBottom", "blindCurtainSliceTop", "stampede", "mosaic", "mosaicReverse", "mosaicRandom", "mosaicSpiral", "mosaicSpiralReverse", "topLeftBottomRight", "bottomRightTopLeft", "bottomLeftTopRight", "bottomLeftTopRight", "scrollLeft", "scrollRight", "scrollHorz", "scrollBottom", "scrollTop"]
+					}
+				}
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/mediaslider-datalet\/"
+}, {
+	"name": "leafletjs-datalet",
+	"type": "map",
+	"idm": {
+		"inputs": {
+			"input": [{
+				"name": "Latitude",
+				"description": "LatitudeDescription",
+				"type": "TEXT",
+				"selection": "1"
+			}, {
+				"name": "Longitude",
+				"description": "LongitudeDescription",
+				"type": "TEXT",
+				"selection": "1"
+			}, {
+				"name": "BalloonContent",
+				"description": "BalloonContentDescription",
+				"type": "TEXT",
+				"selection": "*"
+			}]
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/leafletjs-datalet\/"
+}, {
+	"name": "leafletjs-geojson-datalet",
+	"type": "map-geojson",
+	"idm": {
+		"inputs": {
+			"input": [{
+				"name": "GEOJSON",
+				"description": "GEOJSONDescription",
+				"type": "TEXT",
+				"selection": "1"
+			}, {
+				"name": "GEOJSONContent",
+				"description": "GEOJSONContentDescription",
+				"type": "TEXT",
+				"selection": "*"
+			}]
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/leafletjs-geojson-datalet\/"
+}, {
+	"name": "preview-link",
+	"type": "hidden",
+	"idm": {
+		"inputs": {
+			"input": {
+				"name": {},
+				"description": {},
+				"type": {},
+				"selection": {}
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/preview-link\/"
+}, {
+	"name": "preview-datalet",
+	"type": "hidden",
+	"idm": {
+		"inputs": {
+			"input": {
+				"name": {},
+				"description": {},
+				"type": {},
+				"selection": {}
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/preview-datalet\/"
+}, {
+	"name": "openlayers-datalet",
+	"type": "hidden",
+	"idm": {
+		"inputs": {
+			"input": {
+				"name": {},
+				"description": {},
+				"type": {},
+				"selection": {}
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/openlayers-datalet\/"
+}, {
+	"name": "decision-tree-datalet",
+	"type": "hidden",
+	"idm": {
+		"inputs": {
+			"input": {
+				"name": {},
+				"description": {},
+				"type": {},
+				"selection": {}
+			}
+		}
+	},
+	"url": "http:\/\/localhost\/deep\/deep-components\\/datalets\/decision-tree-datalet\/"
+}]
