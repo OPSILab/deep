@@ -410,174 +410,174 @@
         </component>
 
         <!--spider-->
-<!--         <component> -->
-<!--             <name>spiderchart-datalet</name> -->
-<!--             <type>basic</type> -->
-<!--             <idm> -->
-<!--                 <inputs> -->
-<!--                     <input> -->
-<!--                         <name>XAxis</name> -->
-<!--                         <description>XAxisDescription</description> -->
-<!--                         <type>TEXT</type> -->
-<!--                         <selection>1</selection> -->
-<!--                     </input> -->
-<!--                     <input> -->
-<!--                         <name>NumericYAxis</name> -->
-<!--                         <description>YAxisDescription</description> -->
-<!--                         <type>NUMBER</type> -->
-<!--                         <selection>*</selection> -->
-<!--                     </input> -->
-<!--                     <input> -->
-<!--                         <name>Categories</name> -->
-<!--                         <description>CategoriesDescription</description> -->
-<!--                         <type>TEXT</type> -->
-<!--                         <selection>?</selection> -->
-<!--                     </input> -->
-<!--                     <layouts> -->
-<!--                         <input> -->
-<!--                             <name>suffix</name> -->
-<!--                             <description>suffixDescription</description> -->
-<!--                             <type>TEXT</type> -->
-<!--                             <selection>1</selection> -->
-<!--                         </input> -->
-<!--                         <input> -->
-<!--                             <name>legend</name> -->
-<!--                             <description>dataLabelsDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>topRight</item> -->
-<!--                                 <item>bottom</item> -->
-<!--                                 <item>false</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                         <input> -->
-<!--                             <name>data-labels</name> -->
-<!--                             <description>dataLabelsDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>true</item> -->
-<!--                                 <item>false</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                         <input> -->
-<!--                             <name>stack</name> -->
-<!--                             <description>stackDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>false</item> -->
-<!--                                 <item>normal</item> -->
-<!--                                 <item>percent</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                         <input> -->
-<!--                             <name>theme</name> -->
-<!--                             <description>themeDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>themeBase</item> -->
-<!--                                 <item>themeDarkGreen</item> -->
-<!--                                 <item>themeDarkBlue</item> -->
-<!--                                 <item>themeDarkUnica</item> -->
-<!--                                 <item>themeGray</item> -->
-<!--                                 <item>themeGrid</item> -->
-<!--                                 <item>themeGridLight</item> -->
-<!--                                 <item>themeSandSignika</item> -->
-<!--                                 <item>themeSkies</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                     </layouts> -->
-<!--                 </inputs> -->
-<!--             </idm> -->
-<!--         </component> -->
+        <component>
+            <name>spiderchart-datalet</name>
+            <type>basic</type>
+            <idm>
+                <inputs>
+                    <input>
+                        <name>XAxis</name>
+                        <description>XAxisDescription</description>
+                        <type>TEXT</type>
+                        <selection>1</selection>
+                    </input>
+                    <input>
+                        <name>NumericYAxis</name>
+                        <description>YAxisDescription</description>
+                        <type>NUMBER</type>
+                        <selection>*</selection>
+                    </input>
+                    <input>
+                        <name>Categories</name>
+                        <description>CategoriesDescription</description>
+                        <type>TEXT</type>
+                        <selection>?</selection>
+                    </input>
+                    <layouts>
+                        <input>
+                            <name>suffix</name>
+                            <description>suffixDescription</description>
+                            <type>TEXT</type>
+                            <selection>1</selection>
+                        </input>
+                        <input>
+                            <name>legend</name>
+                            <description>dataLabelsDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>topRight</item>
+                                <item>bottom</item>
+                                <item>false</item>
+                            </list>
+                        </input>
+                        <input>
+                            <name>data-labels</name>
+                            <description>dataLabelsDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>true</item>
+                                <item>false</item>
+                            </list>
+                        </input>
+                        <input>
+                            <name>stack</name>
+                            <description>stackDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>false</item>
+                                <item>normal</item>
+                                <item>percent</item>
+                            </list>
+                        </input>
+                        <input>
+                            <name>theme</name>
+                            <description>themeDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>themeBase</item>
+                                <item>themeDarkGreen</item>
+                                <item>themeDarkBlue</item>
+                                <item>themeDarkUnica</item>
+                                <item>themeGray</item>
+                                <item>themeGrid</item>
+                                <item>themeGridLight</item>
+                                <item>themeSandSignika</item>
+                                <item>themeSkies</item>
+                            </list>
+                        </input>
+                    </layouts>
+                </inputs>
+            </idm>
+        </component>
 
-<!--         polar -->
-<!--         <component> -->
-<!--             <name>polarchart-datalet</name> -->
-<!--             <type>basic</type> -->
-<!--             <idm> -->
-<!--                 <inputs> -->
-<!--                     <input> -->
-<!--                         <name>XAxis</name> -->
-<!--                         <description>XAxisDescription</description> -->
-<!--                         <type>TEXT</type> -->
-<!--                         <selection>1</selection> -->
-<!--                     </input> -->
-<!--                     <input> -->
-<!--                         <name>NumericYAxis</name> -->
-<!--                         <description>YAxisDescription</description> -->
-<!--                         <type>NUMBER</type> -->
-<!--                         <selection>*</selection> -->
-<!--                     </input> -->
-<!--                     <input> -->
-<!--                         <name>Categories</name> -->
-<!--                         <description>CategoriesDescription</description> -->
-<!--                         <type>TEXT</type> -->
-<!--                         <selection>?</selection> -->
-<!--                     </input> -->
-<!--                     <layouts> -->
-<!--                         <input> -->
-<!--                             <name>suffix</name> -->
-<!--                             <description>suffixDescription</description> -->
-<!--                             <type>TEXT</type> -->
-<!--                             <selection>1</selection> -->
-<!--                         </input> -->
-<!--                         <input> -->
-<!--                             <name>legend</name> -->
-<!--                             <description>dataLabelsDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>topRight</item> -->
-<!--                                 <item>bottom</item> -->
-<!--                                 <item>false</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                         <input> -->
-<!--                             <name>data-labels</name> -->
-<!--                             <description>dataLabelsDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>true</item> -->
-<!--                                 <item>false</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                         <input> -->
-<!--                             <name>stack</name> -->
-<!--                             <description>stackDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>false</item> -->
-<!--                                 <item>normal</item> -->
-<!--                                 <item>percent</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                         <input> -->
-<!--                             <name>theme</name> -->
-<!--                             <description>themeDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>themeBase</item> -->
-<!--                                 <item>themeDarkGreen</item> -->
-<!--                                 <item>themeDarkBlue</item> -->
-<!--                                 <item>themeDarkUnica</item> -->
-<!--                                 <item>themeGray</item> -->
-<!--                                 <item>themeGrid</item> -->
-<!--                                 <item>themeGridLight</item> -->
-<!--                                 <item>themeSandSignika</item> -->
-<!--                                 <item>themeSkies</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                     </layouts> -->
-<!--                 </inputs> -->
-<!--             </idm> -->
-<!--         </component> -->
+        <!--polar-->
+        <component>
+            <name>polarchart-datalet</name>
+            <type>basic</type>
+            <idm>
+                <inputs>
+                    <input>
+                        <name>XAxis</name>
+                        <description>XAxisDescription</description>
+                        <type>TEXT</type>
+                        <selection>1</selection>
+                    </input>
+                    <input>
+                        <name>NumericYAxis</name>
+                        <description>YAxisDescription</description>
+                        <type>NUMBER</type>
+                        <selection>*</selection>
+                    </input>
+                    <input>
+                        <name>Categories</name>
+                        <description>CategoriesDescription</description>
+                        <type>TEXT</type>
+                        <selection>?</selection>
+                    </input>
+                    <layouts>
+                        <input>
+                            <name>suffix</name>
+                            <description>suffixDescription</description>
+                            <type>TEXT</type>
+                            <selection>1</selection>
+                        </input>
+                        <input>
+                            <name>legend</name>
+                            <description>dataLabelsDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>topRight</item>
+                                <item>bottom</item>
+                                <item>false</item>
+                            </list>
+                        </input>
+                        <input>
+                            <name>data-labels</name>
+                            <description>dataLabelsDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>true</item>
+                                <item>false</item>
+                            </list>
+                        </input>
+                        <input>
+                            <name>stack</name>
+                            <description>stackDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>false</item>
+                                <item>normal</item>
+                                <item>percent</item>
+                            </list>
+                        </input>
+                        <input>
+                            <name>theme</name>
+                            <description>themeDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>themeBase</item>
+                                <item>themeDarkGreen</item>
+                                <item>themeDarkBlue</item>
+                                <item>themeDarkUnica</item>
+                                <item>themeGray</item>
+                                <item>themeGrid</item>
+                                <item>themeGridLight</item>
+                                <item>themeSandSignika</item>
+                                <item>themeSkies</item>
+                            </list>
+                        </input>
+                    </layouts>
+                </inputs>
+            </idm>
+        </component>
 
         <!--heatmap-->
         <component>
@@ -755,181 +755,181 @@
         </component>
 
         <!--pyramid-->
-<!--         <component> -->
-<!--             <name>pyramidchart-datalet</name> -->
-<!--             <type>pie</type> -->
-<!--             <idm> -->
-<!--                 <inputs> -->
-<!--                     <input> -->
-<!--                         <name>SliceLabels</name> -->
-<!--                         <description>SliceLabelsDescription</description> -->
-<!--                         <type>TEXT</type> -->
-<!--                         <selection>1</selection> -->
-<!--                     </input> -->
-<!--                     <input> -->
-<!--                         <name>SliceSizes</name> -->
-<!--                         <description>SliceSizesDescription</description> -->
-<!--                         <type>NUMBER</type> -->
-<!--                         <selection>1</selection> -->
-<!--                     </input> -->
-<!--                     <layouts> -->
-<!--                         <input> -->
-<!--                             <name>suffix</name> -->
-<!--                             <description>suffixDescription</description> -->
-<!--                             <type>TEXT</type> -->
-<!--                             <selection>1</selection> -->
-<!--                         </input> -->
-<!--                         <input> -->
-<!--                             <name>legend</name> -->
-<!--                             <description>dataLabelsDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>topRight</item> -->
-<!--                                 <item>bottom</item> -->
-<!--                                 <item>false</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                         <input> -->
-<!--                             <name>data-labels</name> -->
-<!--                             <description>dataLabelsDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>true</item> -->
-<!--                                 <item>false</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                         <input> -->
-<!--                             <name>theme</name> -->
-<!--                             <description>themeDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>themeBase</item> -->
-<!--                                 <item>themeDarkGreen</item> -->
-<!--                                 <item>themeDarkBlue</item> -->
-<!--                                 <item>themeDarkUnica</item> -->
-<!--                                 <item>themeGray</item> -->
-<!--                                 <item>themeGrid</item> -->
-<!--                                 <item>themeGridLight</item> -->
-<!--                                 <item>themeSandSignika</item> -->
-<!--                                 <item>themeSkies</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                     </layouts> -->
-<!--                 </inputs> -->
-<!--             </idm> -->
-<!--         </component> -->
+        <component>
+            <name>pyramidchart-datalet</name>
+            <type>pie</type>
+            <idm>
+                <inputs>
+                    <input>
+                        <name>SliceLabels</name>
+                        <description>SliceLabelsDescription</description>
+                        <type>TEXT</type>
+                        <selection>1</selection>
+                    </input>
+                    <input>
+                        <name>SliceSizes</name>
+                        <description>SliceSizesDescription</description>
+                        <type>NUMBER</type>
+                        <selection>1</selection>
+                    </input>
+                    <layouts>
+                        <input>
+                            <name>suffix</name>
+                            <description>suffixDescription</description>
+                            <type>TEXT</type>
+                            <selection>1</selection>
+                        </input>
+                        <input>
+                            <name>legend</name>
+                            <description>dataLabelsDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>topRight</item>
+                                <item>bottom</item>
+                                <item>false</item>
+                            </list>
+                        </input>
+                        <input>
+                            <name>data-labels</name>
+                            <description>dataLabelsDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>true</item>
+                                <item>false</item>
+                            </list>
+                        </input>
+                        <input>
+                            <name>theme</name>
+                            <description>themeDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>themeBase</item>
+                                <item>themeDarkGreen</item>
+                                <item>themeDarkBlue</item>
+                                <item>themeDarkUnica</item>
+                                <item>themeGray</item>
+                                <item>themeGrid</item>
+                                <item>themeGridLight</item>
+                                <item>themeSandSignika</item>
+                                <item>themeSkies</item>
+                            </list>
+                        </input>
+                    </layouts>
+                </inputs>
+            </idm>
+        </component>
 
-<!--         funnel -->
-<!--         <component> -->
-<!--             <name>funnelchart-datalet</name> -->
-<!--             <type>pie</type> -->
-<!--             <idm> -->
-<!--                 <inputs> -->
-<!--                     <input> -->
-<!--                         <name>SliceLabels</name> -->
-<!--                         <description>SliceLabelsDescription</description> -->
-<!--                         <type>TEXT</type> -->
-<!--                         <selection>1</selection> -->
-<!--                     </input> -->
-<!--                     <input> -->
-<!--                         <name>SliceSizes</name> -->
-<!--                         <description>SliceSizesDescription</description> -->
-<!--                         <type>NUMBER</type> -->
-<!--                         <selection>1</selection> -->
-<!--                     </input> -->
-<!--                     <layouts> -->
-<!--                         <input> -->
-<!--                             <name>suffix</name> -->
-<!--                             <description>suffixDescription</description> -->
-<!--                             <type>TEXT</type> -->
-<!--                             <selection>1</selection> -->
-<!--                         </input> -->
-<!--                         <input> -->
-<!--                             <name>legend</name> -->
-<!--                             <description>dataLabelsDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>topRight</item> -->
-<!--                                 <item>bottom</item> -->
-<!--                                 <item>false</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                         <input> -->
-<!--                             <name>data-labels</name> -->
-<!--                             <description>dataLabelsDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>true</item> -->
-<!--                                 <item>false</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                         <input> -->
-<!--                             <name>theme</name> -->
-<!--                             <description>themeDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>themeBase</item> -->
-<!--                                 <item>themeDarkGreen</item> -->
-<!--                                 <item>themeDarkBlue</item> -->
-<!--                                 <item>themeDarkUnica</item> -->
-<!--                                 <item>themeGray</item> -->
-<!--                                 <item>themeGrid</item> -->
-<!--                                 <item>themeGridLight</item> -->
-<!--                                 <item>themeSandSignika</item> -->
-<!--                                 <item>themeSkies</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                     </layouts> -->
-<!--                 </inputs> -->
-<!--             </idm> -->
-<!--         </component> -->
+        <!--funnel-->
+        <component>
+            <name>funnelchart-datalet</name>
+            <type>pie</type>
+            <idm>
+                <inputs>
+                    <input>
+                        <name>SliceLabels</name>
+                        <description>SliceLabelsDescription</description>
+                        <type>TEXT</type>
+                        <selection>1</selection>
+                    </input>
+                    <input>
+                        <name>SliceSizes</name>
+                        <description>SliceSizesDescription</description>
+                        <type>NUMBER</type>
+                        <selection>1</selection>
+                    </input>
+                    <layouts>
+                        <input>
+                            <name>suffix</name>
+                            <description>suffixDescription</description>
+                            <type>TEXT</type>
+                            <selection>1</selection>
+                        </input>
+                        <input>
+                            <name>legend</name>
+                            <description>dataLabelsDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>topRight</item>
+                                <item>bottom</item>
+                                <item>false</item>
+                            </list>
+                        </input>
+                        <input>
+                            <name>data-labels</name>
+                            <description>dataLabelsDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>true</item>
+                                <item>false</item>
+                            </list>
+                        </input>
+                        <input>
+                            <name>theme</name>
+                            <description>themeDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>themeBase</item>
+                                <item>themeDarkGreen</item>
+                                <item>themeDarkBlue</item>
+                                <item>themeDarkUnica</item>
+                                <item>themeGray</item>
+                                <item>themeGrid</item>
+                                <item>themeGridLight</item>
+                                <item>themeSandSignika</item>
+                                <item>themeSkies</item>
+                            </list>
+                        </input>
+                    </layouts>
+                </inputs>
+            </idm>
+        </component>
 
-<!--         wordcloud -->
-<!--         <component> -->
-<!--             <name>wordcloud-datalet</name> -->
-<!--             <type>pie</type> -->
-<!--             <idm> -->
-<!--                 <inputs> -->
-<!--                     <input> -->
-<!--                         <name>SliceLabels</name> -->
-<!--                         <description>SliceLabelsDescription</description> -->
-<!--                         <type>TEXT</type> -->
-<!--                         <selection>1</selection> -->
-<!--                     </input> -->
-<!--                     <input> -->
-<!--                         <name>SliceSizes</name> -->
-<!--                         <description>SliceSizesDescription</description> -->
-<!--                         <type>NUMBER</type> -->
-<!--                         <selection>1</selection> -->
-<!--                     </input> -->
-<!--                     <layouts> -->
-<!--                         <input> -->
-<!--                             <name>theme</name> -->
-<!--                             <description>themeDescription</description> -->
-<!--                             <type>LIST</type> -->
-<!--                             <selection>1</selection> -->
-<!--                             <list> -->
-<!--                                 <item>themeBase</item> -->
-<!--                                 <item>themeDarkGreen</item> -->
-<!--                                 <item>themeDarkBlue</item> -->
-<!--                                 <item>themeDarkUnica</item> -->
-<!--                                 <item>themeGray</item> -->
-<!--                                 <item>themeGrid</item> -->
-<!--                                 <item>themeGridLight</item> -->
-<!--                                 <item>themeSandSignika</item> -->
-<!--                                 <item>themeSkies</item> -->
-<!--                             </list> -->
-<!--                         </input> -->
-<!--                     </layouts> -->
-<!--                 </inputs> -->
-<!--             </idm> -->
-<!--         </component> -->
+        <!--wordcloud-->
+        <component>
+            <name>wordcloud-datalet</name>
+            <type>pie</type>
+            <idm>
+                <inputs>
+                    <input>
+                        <name>SliceLabels</name>
+                        <description>SliceLabelsDescription</description>
+                        <type>TEXT</type>
+                        <selection>1</selection>
+                    </input>
+                    <input>
+                        <name>SliceSizes</name>
+                        <description>SliceSizesDescription</description>
+                        <type>NUMBER</type>
+                        <selection>1</selection>
+                    </input>
+                    <layouts>
+                        <input>
+                            <name>theme</name>
+                            <description>themeDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>themeBase</item>
+                                <item>themeDarkGreen</item>
+                                <item>themeDarkBlue</item>
+                                <item>themeDarkUnica</item>
+                                <item>themeGray</item>
+                                <item>themeGrid</item>
+                                <item>themeGridLight</item>
+                                <item>themeSandSignika</item>
+                                <item>themeSkies</item>
+                            </list>
+                        </input>
+                    </layouts>
+                </inputs>
+            </idm>
+        </component>
 
         <!--scatter-->
         <component>
@@ -1093,22 +1093,6 @@
             </idm>
         </component>
 
-        <!--treemap-->
-        <!--<component>
-            <name>treemap-datalet</name>
-            <type>treemap</type>
-            <idm>
-                <inputs>
-                    <input>
-                        <name>Level</name>
-                        <description>LevelDescription</description>
-                        <type>TEXT</type>
-                        <selection>*</selection>
-                    </input>
-                </inputs>
-            </idm>
-        </component>-->
-
         <!--timeline-->
         <component>
             <name>timeline-datalet</name>
@@ -1235,6 +1219,7 @@
         </component>
 
         <!--audioslider-->
+        <!--
         <component>
             <name>audioslider-datalet</name>
             <type>audioslider</type>
@@ -1267,6 +1252,7 @@
                 </inputs>
             </idm>
         </component>
+        -->
 
         <!--map-->
         <component>
@@ -1298,6 +1284,27 @@
                         <type>TEXT</type>
                         <selection>?</selection>
                     </input>
+                    <layouts>
+                        <input>
+                            <name>layer</name>
+                            <description>layerDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>OpenStreetMap</item>
+                                <item>OpenTopoMap</item>
+                                <item>Esri.WorldImagery</item>
+                                <item>Esri.WorldStreetMap</item>
+                                <item>Esri.DeLorme</item>
+                                <item>Esri.WorldTopoMap</item>
+                                <item>Esri.OceanBasemap</item>
+                                <item>Esri.NatGeoWorldMap</item>
+                                <item>Esri.WorldGrayCanvas</item>
+                                <item>Stamen.Watercolor</item>
+                                <item>NASAGIBS.ViirsEarthAtNight2012</item>
+                            </list>
+                        </input>
+                    </layouts>
                 </inputs>
             </idm>
         </component>
@@ -1320,6 +1327,20 @@
                         <type>TEXT</type>
                         <selection>*</selection>
                     </input>
+                    <layouts>
+                        <input>
+                            <name>layer</name>
+                            <description>layerDescription</description>
+                            <type>LIST</type>
+                            <selection>1</selection>
+                            <list>
+                                <item>OpenStreetMap</item>
+                                <item>OpenTopoMap</item>
+                                <item>Esri.WorldImagery</item>
+                                <item>NASAGIBS.ViirsEarthAtNight2012</item>
+                            </list>
+                        </input>
+                    </layouts>
                 </inputs>
             </idm>
         </component>
@@ -1340,7 +1361,13 @@
                         <name>Value</name>
                         <description>ValueDescription</description>
                         <type>NUMBER</type>
-                        <selection>1</selection>
+                        <selection>?</selection>
+                    </input>
+                    <input>
+                        <name>Categories</name>
+                        <description>CategoriesDescription</description>
+                        <type>TEXT</type>
+                        <selection>?</selection>
                     </input>
                     <input>
                         <name>TooltipContent</name>
@@ -1409,38 +1436,6 @@
                 </inputs>
             </idm>
         </component>
-
-        <!-- openlayers-datalet -->
-        <!--<component>-->
-            <!--<name>openlayers-datalet</name>-->
-            <!--<type>hidden</type>-->
-            <!--<idm>-->
-                <!--<inputs>-->
-                    <!--<input>-->
-                        <!--<name></name>-->
-                        <!--<description></description>-->
-                        <!--<type></type>-->
-                        <!--<selection></selection>-->
-                    <!--</input>-->
-                <!--</inputs>-->
-            <!--</idm>-->
-        <!--</component>-->
-
-        <!-- decision-tree-datalet -->
-        <!--<component>-->
-            <!--<name>decision-tree-datalet</name>-->
-            <!--<type>hidden</type>-->
-            <!--<idm>-->
-                <!--<inputs>-->
-                    <!--<input>-->
-                        <!--<name></name>-->
-                        <!--<description></description>-->
-                        <!--<type></type>-->
-                        <!--<selection></selection>-->
-                    <!--</input>-->
-                <!--</inputs>-->
-            <!--</idm>-->
-        <!--</component>-->
 
     </components>
 </handler_configuration>

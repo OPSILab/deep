@@ -1,11 +1,11 @@
 <configuration>
 
     <deep_datalet_configuration>
-        <components_repository_url_reference>/deep/deep-components/datalets/</components_repository_url_reference>
+        <components_repository_url_reference>/deep2/deep-components/datalets/</components_repository_url_reference>
     </deep_datalet_configuration>
 
     <deep_controllets_configuration>
-        <components_repository_url_reference>/deep/deep-components/controllets/</components_repository_url_reference>
+        <components_repository_url_reference>/deep2/deep-components/controllets/</components_repository_url_reference>
     </deep_controllets_configuration>
 
 </configuration>
